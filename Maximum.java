@@ -27,14 +27,14 @@ public class Maximum<T extends Comparable<T>> {
 	    }
 
   public static void main(String[] args) {
-	  System.out.println("Test Case 1: Max Float Number At 1st Position.");
-	  Maximum<Float> m1=new Maximum<Float>(8.8f,6.6f,7.7f);
+	  System.out.println("Test Case 1: Max String At 1st Position.");
+	  Maximum<String> m1=new Maximum<String>("Peach","Apple","Banana");
 	  m1.maximum();
-	  System.out.println("Test Case 2: Max Float Number At 2nd Position.");
-	  Maximum<Float> m2=new Maximum<Float>(6.6f,8.8f,3.3f);
+	  System.out.println("Test Case 2: Max String At 2nd Position.");
+	  Maximum<String> m2=new Maximum<String>("Apple","Peach","Banana");
 	  m2.maximum();
-	  System.out.println("Test Case 3: Max Float Number At 3rd Position.");
-	  Maximum<Float> m3=new Maximum<Float>(6.6f,7.7f,8.8f);
+	  System.out.println("Test Case 3: Max String At 3rd Position.");
+	  Maximum<String> m3=new Maximum<String>("Apple","Banana","Peach");
 	  m3.maximum();
   }
 }
